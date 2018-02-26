@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ body {
+      text-align: center;
+      background-image: url('body-background.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #BF6900;
+      font-family: 'Berkshire Swash', cursive;
+      font-weight: 40;
+      font-size: 30px;
+      background-attachment: fixed;
+	letter-spacing: 6px;
+}
+
+}
+    }
+    :root{
+    	--base:#eee ;
+    	--spacing: 10px;
+    	--blur: 10px;
+    	--borderradius: 20px;
+    	
+    }
+#img img{
+	width: 500px;
+	height: 400px;
+	filter: blur(var(--blur));
+	padding: var(--spacing);
+	background-color:var(--base);
+	border-radius: var(--borderradius);
+	
+}
+.controls{
+	margin-bottom: 4rem;
+}
+
+body h2{
+	padding-top: 20px;
+}
+
